@@ -3,3 +3,44 @@ body {
   height: 100%;
   margin: 0;
 }
+
+/* Pope's changes */
+header{
+  text-align: center;
+}
+
+#featured-property img{/* , #featured-property figcaption*/
+  display: block;
+  margin: 0 auto;
+}
+
+#featured-property figcaption{
+  font-size: 0.7em;
+  text-align: center;
+}
+
+header a{
+  /* padding: 0 10px; */
+  padding: 0 10px;
+  background-color: grey;
+}
+
+#featured-property p{
+  width: 800px;
+  display: block;
+  margin: 0 auto;
+  padding: 1em;
+  text-align: center;
+}
+
+#details{
+  display: flex;
+  justify-content: space-around;
+  background-color: red;
+  /* text-align: center; */
+}
+
+#details div{
+  text-align: center;
+  width: 25%;
+}
